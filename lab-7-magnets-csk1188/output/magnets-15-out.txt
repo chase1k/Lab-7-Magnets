@@ -1,0 +1,47 @@
+File: data/magnets-15.txt
+Rows: 10, Columns: 9
+Pairs:
+L R T T L R L R T 
+L R B B T T L R B 
+L R L R L R L R T 
+L R L R L R L R B 
+T L R L R L R L R 
+B L R L R T T T T 
+T T T L R B B B B 
+B B B T T T T T T 
+T T T B B B B B B 
+B B B L R L R L R 
+Initial config:
++ 4 4 3 2 5 4 2 4 4
+  -----------------
+5|. . . . . . . . .|4
+4|. . . . . . . . .|5
+5|. . . . . . . . .|4
+0|. . . . . . . . .|1
+3|. . . . . . . . .|3
+2|. . . . . . . . .|3
+4|. . . . . . . . .|2
+3|. . . . . . . . .|4
+3|. . . . . . . . .|3
+3|. . . . . . . . .|3
+  -----------------
+  3 4 3 4 3 4 2 4 5  -
+
+Solution:
++ 4 4 3 2 5 4 2 4 4
+  -----------------
+5|+ - + - + - + - +|4
+4|- + - + - + - + -|5
+5|+ - + - + - + - +|4
+0|X X X X X X X X -|1
+3|X + - + - + - X X|3
+2|X X X - + - X + -|3
+4|+ - + X X + X - +|2
+3|- + - X + - X + -|4
+3|+ - X X - + X - +|3
+3|- + X - + X X + -|3
+  -----------------
+  3 4 3 4 3 4 2 4 5  -
+
+Elapsed time: 0.005 seconds.
+1765 configurations generated.

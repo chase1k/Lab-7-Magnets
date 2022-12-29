@@ -1,0 +1,15 @@
+10 9
+4 -1 -1 -1 -1 1 4 -1 -1 -1
+-1 3 -1 -1 5 3 -1 3 5
+4 3 -1 4 -1 3 3 -1 2 3
+-1 4 -1 4 4 -1 -1 -1 5
+L R L R T L R T T
+L R L R B L R B B
+T L R T T L R T T
+B L R B B T T B B
+T T L R L R B L R
+B B L R B L R L R
+T L R T T T T T T
+B T T B B B B B B
+T B B T L R T L R
+B L R B L R B L R

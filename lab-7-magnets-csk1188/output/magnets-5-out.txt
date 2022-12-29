@@ -1,0 +1,23 @@
+File: data/magnets-5.txt
+Rows: 2, Columns: 2
+Pairs:
+T T 
+B B 
+Initial config:
++ 1 1
+  ---
+1|. .|1
+1|. .|1
+  ---
+  1 1  -
+
+Solution:
++ 1 1
+  ---
+1|+ -|1
+1|- +|1
+  ---
+  1 1  -
+
+Elapsed time: 0.0 seconds.
+13 configurations generated.

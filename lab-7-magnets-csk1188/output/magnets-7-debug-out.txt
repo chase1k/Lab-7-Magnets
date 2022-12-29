@@ -1,0 +1,336 @@
+File: data/magnets-7.txt
+Rows: 2, Columns: 3
+Pairs:
+L R T 
+L R B 
+Initial config:
++ 1 1 0
+  -----
+ |. . .|1
+1|. . .| 
+  -----
+  1 1 0  -
+
+Backtracker debugging enabled...
+Current config: 
++ 1 1 0
+  -----
+ |. . .|1
+1|. . .| 
+  -----
+  1 1 0  -
+
+Valid successor: 
++ 1 1 0
+  -----
+ |+ . .|1
+1|. . .| 
+  -----
+  1 1 0  -
+
+Current config: 
++ 1 1 0
+  -----
+ |+ . .|1
+1|. . .| 
+  -----
+  1 1 0  -
+
+	Invalid successor: 
++ 1 1 0
+  -----
+ |+ + .|1
+1|. . .| 
+  -----
+  1 1 0  -
+
+Valid successor: 
++ 1 1 0
+  -----
+ |+ - .|1
+1|. . .| 
+  -----
+  1 1 0  -
+
+Current config: 
++ 1 1 0
+  -----
+ |+ - .|1
+1|. . .| 
+  -----
+  1 1 0  -
+
+Valid successor: 
++ 1 1 0
+  -----
+ |+ - +|1
+1|. . .| 
+  -----
+  1 1 0  -
+
+Current config: 
++ 1 1 0
+  -----
+ |+ - +|1
+1|. . .| 
+  -----
+  1 1 0  -
+
+	Invalid successor: 
++ 1 1 0
+  -----
+ |+ - +|1
+1|+ . .| 
+  -----
+  1 1 0  -
+
+Valid successor: 
++ 1 1 0
+  -----
+ |+ - +|1
+1|- . .| 
+  -----
+  1 1 0  -
+
+Current config: 
++ 1 1 0
+  -----
+ |+ - +|1
+1|- . .| 
+  -----
+  1 1 0  -
+
+Valid successor: 
++ 1 1 0
+  -----
+ |+ - +|1
+1|- + .| 
+  -----
+  1 1 0  -
+
+Current config: 
++ 1 1 0
+  -----
+ |+ - +|1
+1|- + .| 
+  -----
+  1 1 0  -
+
+	Invalid successor: 
++ 1 1 0
+  -----
+ |+ - +|1
+1|- + +| 
+  -----
+  1 1 0  -
+
+	Invalid successor: 
++ 1 1 0
+  -----
+ |+ - +|1
+1|- + -| 
+  -----
+  1 1 0  -
+
+	Invalid successor: 
++ 1 1 0
+  -----
+ |+ - +|1
+1|- + X| 
+  -----
+  1 1 0  -
+
+	Invalid successor: 
++ 1 1 0
+  -----
+ |+ - +|1
+1|- - .| 
+  -----
+  1 1 0  -
+
+	Invalid successor: 
++ 1 1 0
+  -----
+ |+ - +|1
+1|- X .| 
+  -----
+  1 1 0  -
+
+Valid successor: 
++ 1 1 0
+  -----
+ |+ - +|1
+1|X . .| 
+  -----
+  1 1 0  -
+
+Current config: 
++ 1 1 0
+  -----
+ |+ - +|1
+1|X . .| 
+  -----
+  1 1 0  -
+
+	Invalid successor: 
++ 1 1 0
+  -----
+ |+ - +|1
+1|X + .| 
+  -----
+  1 1 0  -
+
+	Invalid successor: 
++ 1 1 0
+  -----
+ |+ - +|1
+1|X - .| 
+  -----
+  1 1 0  -
+
+Valid successor: 
++ 1 1 0
+  -----
+ |+ - +|1
+1|X X .| 
+  -----
+  1 1 0  -
+
+Current config: 
++ 1 1 0
+  -----
+ |+ - +|1
+1|X X .| 
+  -----
+  1 1 0  -
+
+	Invalid successor: 
++ 1 1 0
+  -----
+ |+ - +|1
+1|X X +| 
+  -----
+  1 1 0  -
+
+	Invalid successor: 
++ 1 1 0
+  -----
+ |+ - +|1
+1|X X -| 
+  -----
+  1 1 0  -
+
+	Invalid successor: 
++ 1 1 0
+  -----
+ |+ - +|1
+1|X X X| 
+  -----
+  1 1 0  -
+
+	Invalid successor: 
++ 1 1 0
+  -----
+ |+ - -|1
+1|. . .| 
+  -----
+  1 1 0  -
+
+Valid successor: 
++ 1 1 0
+  -----
+ |+ - X|1
+1|. . .| 
+  -----
+  1 1 0  -
+
+Current config: 
++ 1 1 0
+  -----
+ |+ - X|1
+1|. . .| 
+  -----
+  1 1 0  -
+
+	Invalid successor: 
++ 1 1 0
+  -----
+ |+ - X|1
+1|+ . .| 
+  -----
+  1 1 0  -
+
+Valid successor: 
++ 1 1 0
+  -----
+ |+ - X|1
+1|- . .| 
+  -----
+  1 1 0  -
+
+Current config: 
++ 1 1 0
+  -----
+ |+ - X|1
+1|- . .| 
+  -----
+  1 1 0  -
+
+Valid successor: 
++ 1 1 0
+  -----
+ |+ - X|1
+1|- + .| 
+  -----
+  1 1 0  -
+
+Current config: 
++ 1 1 0
+  -----
+ |+ - X|1
+1|- + .| 
+  -----
+  1 1 0  -
+
+	Invalid successor: 
++ 1 1 0
+  -----
+ |+ - X|1
+1|- + +| 
+  -----
+  1 1 0  -
+
+	Invalid successor: 
++ 1 1 0
+  -----
+ |+ - X|1
+1|- + -| 
+  -----
+  1 1 0  -
+
+Valid successor: 
++ 1 1 0
+  -----
+ |+ - X|1
+1|- + X| 
+  -----
+  1 1 0  -
+
+Current config: 
++ 1 1 0
+  -----
+ |+ - X|1
+1|- + X| 
+  -----
+  1 1 0  -
+
+Solution:
++ 1 1 0
+  -----
+ |+ - X|1
+1|- + X| 
+  -----
+  1 1 0  -
+
+Elapsed time: 0.005 seconds.
+34 configurations generated.

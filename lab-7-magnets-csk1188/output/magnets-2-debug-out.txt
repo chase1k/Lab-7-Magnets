@@ -1,0 +1,104 @@
+File: data/magnets-2.txt
+Rows: 2, Columns: 1
+Pairs:
+T 
+B 
+Initial config:
++ 1
+  -
+0|.|1
+1|.|0
+  -
+  1  -
+
+Backtracker debugging enabled...
+Current config: 
++ 1
+  -
+0|.|1
+1|.|0
+  -
+  1  -
+
+Valid successor: 
++ 1
+  -
+0|+|1
+1|.|0
+  -
+  1  -
+
+Current config: 
++ 1
+  -
+0|+|1
+1|.|0
+  -
+  1  -
+
+	Invalid successor: 
++ 1
+  -
+0|+|1
+1|+|0
+  -
+  1  -
+
+	Invalid successor: 
++ 1
+  -
+0|+|1
+1|-|0
+  -
+  1  -
+
+	Invalid successor: 
++ 1
+  -
+0|+|1
+1|X|0
+  -
+  1  -
+
+Valid successor: 
++ 1
+  -
+0|-|1
+1|.|0
+  -
+  1  -
+
+Current config: 
++ 1
+  -
+0|-|1
+1|.|0
+  -
+  1  -
+
+Valid successor: 
++ 1
+  -
+0|-|1
+1|+|0
+  -
+  1  -
+
+Current config: 
++ 1
+  -
+0|-|1
+1|+|0
+  -
+  1  -
+
+Solution:
++ 1
+  -
+0|-|1
+1|+|0
+  -
+  1  -
+
+Elapsed time: 0.008 seconds.
+10 configurations generated.

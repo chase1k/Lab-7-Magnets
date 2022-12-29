@@ -1,0 +1,140 @@
+File: data/magnets-3.txt
+Rows: 1, Columns: 2
+Pairs:
+L R 
+Initial config:
++ 0 0
+  ---
+0|. .|0
+  ---
+  0 0  -
+
+Backtracker debugging enabled...
+Current config: 
++ 0 0
+  ---
+0|. .|0
+  ---
+  0 0  -
+
+Valid successor: 
++ 0 0
+  ---
+0|+ .|0
+  ---
+  0 0  -
+
+Current config: 
++ 0 0
+  ---
+0|+ .|0
+  ---
+  0 0  -
+
+	Invalid successor: 
++ 0 0
+  ---
+0|+ +|0
+  ---
+  0 0  -
+
+	Invalid successor: 
++ 0 0
+  ---
+0|+ -|0
+  ---
+  0 0  -
+
+	Invalid successor: 
++ 0 0
+  ---
+0|+ X|0
+  ---
+  0 0  -
+
+Valid successor: 
++ 0 0
+  ---
+0|- .|0
+  ---
+  0 0  -
+
+Current config: 
++ 0 0
+  ---
+0|- .|0
+  ---
+  0 0  -
+
+	Invalid successor: 
++ 0 0
+  ---
+0|- +|0
+  ---
+  0 0  -
+
+	Invalid successor: 
++ 0 0
+  ---
+0|- -|0
+  ---
+  0 0  -
+
+	Invalid successor: 
++ 0 0
+  ---
+0|- X|0
+  ---
+  0 0  -
+
+Valid successor: 
++ 0 0
+  ---
+0|X .|0
+  ---
+  0 0  -
+
+Current config: 
++ 0 0
+  ---
+0|X .|0
+  ---
+  0 0  -
+
+	Invalid successor: 
++ 0 0
+  ---
+0|X +|0
+  ---
+  0 0  -
+
+	Invalid successor: 
++ 0 0
+  ---
+0|X -|0
+  ---
+  0 0  -
+
+Valid successor: 
++ 0 0
+  ---
+0|X X|0
+  ---
+  0 0  -
+
+Current config: 
++ 0 0
+  ---
+0|X X|0
+  ---
+  0 0  -
+
+Solution:
++ 0 0
+  ---
+0|X X|0
+  ---
+  0 0  -
+
+Elapsed time: 0.006 seconds.
+13 configurations generated.

@@ -1,0 +1,16 @@
+File: data/magnets-nosol.txt
+Rows: 2, Columns: 3
+Pairs:
+L R T
+L R B
+Initial config:
++ 1 0 0
+  -----
+1|. . .|1
+1|. . .|1
+  -----
+  1 0 0  -
+
+No solution exists!
+Elapsed time: 0.0 seconds.
+145 configurations generated.

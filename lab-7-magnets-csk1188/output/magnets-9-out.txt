@@ -1,0 +1,29 @@
+File: data/magnets-9.txt
+Rows: 4, Columns: 4
+Pairs:
+L R T T 
+L R B B 
+T T L R 
+B B L R 
+Initial config:
++   2   0
+  -------
+2|. . . .| 
+1|. . . .| 
+ |. . . .|2
+ |. . . .|0
+  -------
+  1   1    -
+
+Solution:
++   2   0
+  -------
+2|+ - + X| 
+1|- + - X| 
+ |X - + -|2
+ |X + X X|0
+  -------
+  1   1    -
+
+Elapsed time: 0.001 seconds.
+586 configurations generated.

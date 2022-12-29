@@ -1,0 +1,32 @@
+File: data/magnets-12.txt
+Rows: 5, Columns: 6
+Pairs:
+L R L R T T 
+L R L R B B 
+T T T T L R 
+B B B B T T 
+L R L R B B 
+Initial config:
++ 1     2 1  
+  -----------
+2|. . . . . .| 
+3|. . . . . .| 
+ |. . . . . .| 
+ |. . . . . .|1
+ |. . . . . .| 
+  -----------
+  2     2   3  -
+
+Solution:
++ 1     2 1  
+  -----------
+2|+ - + - X -| 
+3|- + - + X +| 
+ |X X + - + -| 
+ |X X - + X +|1
+ |- + X X X -| 
+  -----------
+  2     2   3  -
+
+Elapsed time: 0.078 seconds.
+181339 configurations generated.
